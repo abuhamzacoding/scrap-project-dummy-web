@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand img {
+  width: 130px;
+  color: white;
+  margin-top: 5px;
+  filter: contrast(5);
+}
+
+.container-fluid {
+  margin-top: -5px;
+}
+.nav-item {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  float: right;
+  margin-left: 12px;
+}
+
+.navbar-nav {
+  border-radius: 10px;
+  float: right;
+  text-align: center;
+  z-index: 1;
+  gap: 5px;
+
+  width: 100%;
+  margin-left: 22px;
+  padding: 10px;
+
+  background-color: rgba(0, 0, 0, 0.975);
+  border: 0px solid rgb(248, 248, 248);
+}
+
+.nav-item .nav-link {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: larger;
+}
+
+#nav-link {
+  color: whitesmoke;
+}
+
+#nav-link:hover {
+  color: black;
+}
+
+.nav-item a:hover {
+  font-weight: 800;
+  color: black;
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
+.nav-wrapper .offcanvas-body {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: large;
+  margin: -1px;
+}
+
+.offcanvas-title {
+  width: 100px;
+}
+.offcanvas .dropdown-menu {
+  background-color: black;
+  height: 100%;
+}
+.dropdown-menu a {
+  text-align: start;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  font-weight: 500;
+}
+.dropdown-menu a:hover {
+  text-align: start;
+  background-color: white;
+  color: black;
+}
+
+.dropdown-divider {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 253, 253);
+}
+
+.navbar .navbar-toggler {
+  border: 2px solid black;
+  color: aliceblue;
+  width: 40px;
+  height: 35px;
+  margin-top: 3px;
+  margin-right: 0px;
+}
+.navbar .navbar-toggler-icon {
+  width: 24px;
+  margin: -3px 0px 0px -6px;
+}
